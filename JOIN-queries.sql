@@ -1,4 +1,4 @@
--- SELECT unit_prince, invoice_line_id FROM invoice_line
+-- SELECT unit_price, invoice_line_id FROM invoice_line
 -- WHERE unit_price > .99
 
 -- SELECT invoice.invoice_data, customer.first_name, customer.last_name, invoice.total
