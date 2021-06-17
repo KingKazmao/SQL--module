@@ -1,5 +1,6 @@
 -- SELECT unit_price, invoice_line_id FROM invoice_line
 -- WHERE unit_price > .99
+-- FROM unit_price JOIN invoicd_line_id ON invoice_line
 
 -- SELECT invoice.invoice_data, customer.first_name, customer.last_name, invoice.total
 -- FROM customer JOIN invoice ON customer.customer_id = invoice.customer_id;
@@ -8,5 +9,5 @@
 -- FROM customer JOIN employee ON customer.support_rep_id = employee.employee_id;
 
 -- SELECT album.title, artist.name
--- FROM alnbum JOIN artist ON album.artist_id = artist.artist_id;
+-- FROM album JOIN artist ON album.artist_id = artist.artist_id;
 
