@@ -1,6 +1,7 @@
 -- SELECT unit_price, invoice_line_id FROM invoice_line
 -- WHERE unit_price > .99
--- FROM unit_price JOIN invoicd_line_id ON invoice_line
+-- FROM unit_price JOIN invoice ON invoice.invoice_line_id = invoice_line
+
 
 -- SELECT invoice.invoice_data, customer.first_name, customer.last_name, invoice.total
 -- FROM customer JOIN invoice ON customer.customer_id = invoice.customer_id;
